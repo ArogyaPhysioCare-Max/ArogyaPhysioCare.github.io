@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="320" height="320">
+  <!-- Background -->
+  <rect width="320" height="320" fill="white"/>
+  
+  <!-- Roof/House shape - Blue -->
+  <path d="M100 95 L160 45 L220 95" stroke="#1B48C4" stroke-width="11" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Human figure - Blue -->
+  <!-- Head -->
+  <circle cx="160" cy="112" r="16" fill="#1B48C4"/>
+  <!-- Body -->
+  <path d="M160 128 Q140 150 145 175 Q155 165 160 160 Q165 165 175 175 Q180 150 160 128Z" fill="#1B48C4"/>
+  <!-- Arms -->
+  <path d="M145 140 Q125 130 115 145" stroke="#1B48C4" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M175 140 Q195 128 205 138" stroke="#1B48C4" stroke-width="7" fill="none" stroke-linecap="round"/>
+
+  <!-- Spine dots - Gold -->
+  <circle cx="160" cy="138" r="4" fill="#FFC107"/>
+  <circle cx="160" cy="150" r="4" fill="#FFC107"/>
+  <circle cx="160" cy="162" r="4" fill="#FFC107"/>
+  <circle cx="160" cy="174" r="4" fill="#FFC107"/>
+  
+  <!-- Hands / Leaves - Green -->
+  <!-- Left hand -->
+  <path d="M85 185 Q70 160 90 148 Q100 158 95 175 Q108 155 120 162 Q115 178 105 182 Q118 168 128 175 Q125 190 112 192 Q122 182 130 190 Q128 205 112 205 Q95 210 82 200 Q75 195 85 185Z" fill="#2E7D32"/>
+  <!-- Right hand -->
+  <path d="M235 185 Q250 160 230 148 Q220 158 225 175 Q212 155 200 162 Q205 178 215 182 Q202 168 192 175 Q195 190 208 192 Q198 182 190 190 Q192 205 208 205 Q225 210 238 200 Q245 195 235 185Z" fill="#2E7D32"/>
+  
+  <!-- Text: AROGYA - Bold Blue -->
+  <text x="160" y="248" 
+        font-family="Arial Black, Arial, sans-serif" 
+        font-size="38" 
+        font-weight="900" 
+        fill="#1B48C4" 
+        text-anchor="middle" 
+        letter-spacing="2">AROGYA</text>
+  
+  <!-- Text: PHYSIO CARE - Bold Green -->
+  <text x="160" y="282" 
+        font-family="Arial Black, Arial, sans-serif" 
+        font-size="28" 
+        font-weight="900" 
+        fill="#2E7D32" 
+        text-anchor="middle" 
+        letter-spacing="1">PHYSIO CARE</text>
+  
+  <!-- Tagline -->
+  <text x="160" y="307" 
+        font-family="Arial, sans-serif" 
+        font-size="14" 
+        font-weight="700" 
+        fill="#1B48C4" 
+        text-anchor="middle">Healing At Your Doorstep</text>
+</svg>
